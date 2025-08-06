@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - PaathshalaX</title>
+    <meta name="description" content="Get in touch with PaathshalaX. Contact us for course inquiries, support, or any questions about our educational programs.">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <a href="index.html">
+                    <h2>PaathshalaX</h2>
+                </a>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="index.html" class="nav-link">Home</a></li>
+                <li><a href="about.html" class="nav-link">About</a></li>
+                <li><a href="courses.html" class="nav-link">Courses</a></li>
+                <li><a href="workshops.html" class="nav-link">Workshops</a></li>
+                <li><a href="gallery.html" class="nav-link">Gallery</a></li>
+                <li><a href="testimonials.html" class="nav-link">Testimonials</a></li>
+                <li><a href="faq.html" class="nav-link">FAQ</a></li>
+                <li><a href="contact.html" class="nav-link active">Contact</a></li>
+                <li><a href="courses.html" class="nav-cta">Browse Offerings</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="container">
+            <h1>Get In Touch</h1>
+            <p>We're here to help you start your learning journey</p>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact-page">
+        <div class="container">
+            <div class="contact-grid">
+                <!-- Contact Information -->
+                <div class="contact-info-card">
+                    <h3>Contact Information</h3>
+                    <p>Ready to transform your tech career? Get in touch with us and let's discuss how we can help you achieve your goals.</p>
+                    
+                    <div class="contact-method">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h4>Email</h4>
+                            <p>support@paathshalax.com</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-method">
+                        <i class="fas fa-phone"></i>
+                        <div>
+                            <h4>Phone</h4>
+                            <p>+91-XXXXXXXXXX</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-method">
+                        <i class="fab fa-whatsapp"></i>
+                        <div>
+                            <h4>WhatsApp</h4>
+                            <p>+91-XXXXXXXXXX</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-method">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h4>Address</h4>
+                            <p>123 Education Street<br>Tech City, TC 12345<br>India</p>
+                        </div>
+                    </div>
+
+                    <div class="office-hours">
+                        <h4>Office Hours</h4>
+                        <p><strong>Monday - Friday:</strong> 9:00 AM - 6:00 PM</p>
+                        <p><strong>Saturday:</strong> 10:00 AM - 4:00 PM</p>
+                        <p><strong>Sunday:</strong> Closed</p>
+                        <p><em>Response time: Within 24 hours</em></p>
+                    </div>
+                </div>
+
+                <!-- Contact Form -->
+                <div class="contact-form-card">
+                    <h3>Send us a Message</h3>
+                    <form class="contact-form">
+                        <div class="form-group">
+                            <label for="name">Full Name *</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="email">Email Address *</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="phone">Phone Number</label>
+                            <input type="tel" id="phone" name="phone">
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="interest">Area of Interest *</label>
+                            <select id="interest" name="interest" required>
+                                <option value="">Select your interest</option>
+                                <option value="development">Development Workshops</option>
+                                <option value="cloud">Cloud & DevOps</option>
+                                <option value="genai">GenAI & AI Tools</option>
+                                <option value="career">Career Guidance</option>
+                                <option value="general">General Inquiry</option>
+                                <option value="support">Technical Support</option>
+                            </select>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="college">College/University</label>
+                            <input type="text" id="college" name="college" placeholder="Your current college or university">
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="year">Year of Study</label>
+                            <select id="year" name="year">
+                                <option value="">Select year</option>
+                                <option value="1st">1st Year</option>
+                                <option value="2nd">2nd Year</option>
+                                <option value="3rd">3rd Year</option>
+                                <option value="4th">4th Year</option>
+                                <option value="graduate">Graduate</option>
+                                <option value="working">Working Professional</option>
+                            </select>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="message">Message *</label>
+                            <textarea id="message" name="message" required placeholder="Tell us about your goals, questions, or how we can help you..."></textarea>
+                        </div>
+                        
+                        <button type="submit" class="btn btn-primary btn-large">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Quick Contact Options -->
+    <section class="quick-contact">
+        <div class="container">
+            <div class="section-header">
+                <h2>Quick Contact Options</h2>
+                <p>Choose the best way to reach us</p>
+            </div>
+            <div class="quick-contact-grid">
+                <div class="quick-contact-card">
+                    <i class="fas fa-comments"></i>
+                    <h4>Live Chat</h4>
+                    <p>Get instant answers to your questions</p>
+                    <button class="btn btn-outline">Start Chat</button>
+                </div>
+                <div class="quick-contact-card">
+                    <i class="fas fa-calendar-alt"></i>
+                    <h4>Schedule a Call</h4>
+                    <p>Book a free consultation with our team</p>
+                    <button class="btn btn-outline">Book Call</button>
+                </div>
+                <div class="quick-contact-card">
+                    <i class="fab fa-telegram"></i>
+                    <h4>Join Community</h4>
+                    <p>Connect with fellow learners</p>
+                    <button class="btn btn-outline">Join Now</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Map Section -->
+    <section class="map-section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Find Us</h2>
+                <p>Visit our office for in-person consultations</p>
+            </div>
+            <div class="map-container">
+                <div class="map-placeholder">
+                    <i class="fas fa-map-marked-alt"></i>
+                    <h3>Interactive Map</h3>
+                    <p>Google Maps integration would be placed here</p>
+                    <p>123 Education Street, Tech City, TC 12345</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Quick Links -->
+    <section class="faq-quick-links">
+        <div class="container">
+            <div class="section-header">
+                <h2>Common Questions</h2>
+                <p>Quick answers to frequently asked questions</p>
+            </div>
+            <div class="quick-faq-grid">
+                <div class="quick-faq-item">
+                    <h4>Are workshops beginner-friendly?</h4>
+                    <p>Yes! All our workshops start from basics with no prior experience required.</p>
+                    <a href="faq.html">Learn More</a>
+                </div>
+                <div class="quick-faq-item">
+                    <h4>Do you provide certificates?</h4>
+                    <p>Yes, we provide industry-recognized certificates upon course completion.</p>
+                    <a href="faq.html">Learn More</a>
+                </div>
+                <div class="quick-faq-item">
+                    <h4>What's your refund policy?</h4>
+                    <p>We offer a 7-day money-back guarantee for all our courses.</p>
+                    <a href="faq.html">Learn More</a>
+                </div>
+                <div class="quick-faq-item">
+                    <h4>How do I join a workshop?</h4>
+                    <p>Browse our courses and click "Request to Join" on any workshop page.</p>
+                    <a href="courses.html">Browse Courses</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>PaathshalaX</h3>
+                    <p>Bridging the gap between college education and industry requirements through practical, hands-on learning.</p>
+                    <div class="social-links">
+                        <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                        <a href="#" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="courses.html">Courses</a></li>
+                        <li><a href="workshops.html">Workshops</a></li>
+                        <li><a href="gallery.html">Gallery</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Workshops</h4>
+                    <ul>
+                        <li><a href="development-workshops.html">Development</a></li>
+                        <li><a href="cloud-workshops.html">Cloud</a></li>
+                        <li><a href="genai-workshops.html">GenAI</a></li>
+                        <li><a href="career-guidance.html">Career Guidance</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Support</h4>
+                    <ul>
+                        <li><a href="faq.html">FAQ</a></li>
+                        <li><a href="terms.html">Terms of Service</a></li>
+                        <li><a href="privacy.html">Privacy Policy</a></li>
+                        <li><a href="contact.html">Help Center</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 PaathshalaX. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
